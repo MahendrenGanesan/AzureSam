@@ -1,0 +1,23 @@
+{
+	"name": "ds_daily_prices",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "lnk_blob_storage_daily_prices",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "prices.csv",
+				"container": "daily-prices"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
