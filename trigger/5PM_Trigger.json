@@ -1,0 +1,25 @@
+{
+	"name": "5PM_Trigger",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Day",
+				"interval": 1,
+				"startTime": "2023-01-02T16:34:00",
+				"timeZone": "India Standard Time",
+				"schedule": {
+					"minutes": [
+						7
+					],
+					"hours": [
+						22
+					]
+				}
+			}
+		}
+	}
+}
