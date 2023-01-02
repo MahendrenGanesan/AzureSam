@@ -243,16 +243,8 @@
 						"frequency": "Minute",
 						"interval": 1,
 						"startTime": "2023-01-02T16:34:00",
-						"timeZone": "India Standard Time",
-						"schedule": {
-							"minutes": [
-								7,
-								9
-							],
-							"hours": [
-								22
-							]
-						}
+						"endTime": "2023-01-03T00:40:21",
+						"timeZone": "India Standard Time"
 					}
 				}
 			},
