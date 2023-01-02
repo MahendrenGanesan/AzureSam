@@ -1,0 +1,21 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "DF-FundAccounting"
+		},
+		"lnk_blob_storage_daily_prices_connectionString": {
+			"value": ""
+		},
+		"lnk_stoage_service_gen2_daily_prices_accountKey": {
+			"value": ""
+		},
+		"lnk_stoage_service_gen2_daily_prices_properties_typeProperties_url": {
+			"value": "https://assetpricesdl.dfs.core.windows.net/"
+		},
+		"5PM_Trigger_properties_first_price_flow_parameters_fileName": {
+			"value": "testValuetestvalue.csv"
+		}
+	}
+}
