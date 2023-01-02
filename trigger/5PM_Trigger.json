@@ -23,7 +23,8 @@
 				"timeZone": "India Standard Time",
 				"schedule": {
 					"minutes": [
-						7
+						7,
+						9
 					],
 					"hours": [
 						22
