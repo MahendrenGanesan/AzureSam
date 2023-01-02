@@ -56,11 +56,22 @@
 				"outputs": [
 					{
 						"referenceName": "ds_dl_prices",
-						"type": "DatasetReference"
+						"type": "DatasetReference",
+						"parameters": {
+							"fileName": {
+								"value": "@pipeline().parameters.fileName",
+								"type": "Expression"
+							}
+						}
 					}
 				]
 			}
 		],
+		"parameters": {
+			"fileName": {
+				"type": "string"
+			}
+		},
 		"annotations": []
 	}
 }
