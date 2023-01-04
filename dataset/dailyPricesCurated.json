@@ -1,0 +1,21 @@
+{
+	"name": "dailyPricesCurated",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "dailyPricesCurated",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "daily-prices-curated"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
